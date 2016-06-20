@@ -1,0 +1,2 @@
+Bad activity command, or no activities match: com.byteshaft.smspopup
+Use -h for help.

@@ -1,0 +1,40 @@
+TASK com.byteshaft.smspopup id=539
+  ACTIVITY com.byteshaft.smspopup/.OverlayDialog 8184b4e pid=30893
+    Local Activity e962830 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 450mcc5mnc ko_KR ldltr sw360dp w360dp h574dp 640dpi nrml port finger -keyb/v/h -nav/h s.12 fontTypeIndex7 forceEmbolden0}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@b4deca9
+        mContainer=android.app.Activity$HostCallbacks@b4deca9
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=16256534 (21300 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{1ff722e V.E...... R....... 0,0-1280,829}
+        android.widget.LinearLayout{c21d1cf V.E...... ........ 64,64-1216,765}
+          android.widget.TextView{d6d975c V.ED..... ........ 0,0-1152,179 #1020016 android:id/title}
+          android.view.View{8efaa65 V.ED..... ......I. 0,179-1152,179}
+          android.widget.FrameLayout{314833a V.E...... ........ 0,179-1152,701}
+            android.widget.FrameLayout{893bbeb V.E...... ........ 0,0-1152,522 #1020002 android:id/content}
+              android.widget.LinearLayout{ceacd48 V.E...... ........ 0,0-1152,522}
+                android.widget.LinearLayout{83587e1 V.E...... ........ 64,64-346,246}
+                  android.widget.LinearLayout{7379906 V.E...... ........ 0,0-282,182}
+                    android.widget.TextView{3f02bc7 V.ED..... ........ 0,0-282,76 #7f09003f app:id/incomingNumber}
+                    android.widget.TextView{d8375f4 V.ED..... ........ 0,76-282,182 #7f090040 app:id/tv}
+                android.widget.LinearLayout{da1c11d V.E...... ........ 64,246-1088,458}
+                  android.widget.Button{243f92 VFED..C.. ........ 0,20-688,212 #7f090041 app:id/bCancel}
+    Looper (main, tid 1) {7b9bd63}
+      (Total messages: 0, polling=false, quitting=false)

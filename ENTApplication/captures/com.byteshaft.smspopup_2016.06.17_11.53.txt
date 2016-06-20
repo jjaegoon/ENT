@@ -1,0 +1,50 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        afdac85 com.byteshaft.smspopup/.MainActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.provider.Telephony.SMS_RECEIVED:
+        c712ada com.byteshaft.smspopup/.SmsReceiver
+
+Key Set Manager:
+  [com.byteshaft.smspopup]
+      Signing KeySets: 143
+
+Packages:
+  Package [com.byteshaft.smspopup] (c5709b1):
+    userId=10276
+    pkg=Package{5d9db0b com.byteshaft.smspopup}
+    codePath=/data/app/com.byteshaft.smspopup-1
+    resourcePath=/data/app/com.byteshaft.smspopup-1
+    legacyNativeLibraryDir=/data/app/com.byteshaft.smspopup-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 targetSdk=21
+    versionName=1.0
+    splits=[base]
+    applicationInfo=ApplicationInfo{401cde8 com.byteshaft.smspopup}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.byteshaft.smspopup
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-06-17 11:52:04
+    firstInstallTime=2016-06-17 11:28:54
+    lastUpdateTime=2016-06-17 11:52:05
+    signatures=PackageSignatures{718fe04 [af18c01]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_CONTACTS
+      android.permission.READ_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.SEND_SMS
+      android.permission.SYSTEM_ALERT_WINDOW
+    install permissions:
+      android.permission.READ_SMS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.RECEIVE_SMS: granted=true
+      android.permission.SEND_SMS: granted=true
+      android.permission.READ_CONTACTS: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
